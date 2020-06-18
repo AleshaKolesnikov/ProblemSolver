@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function_1", "Function_1\Function_1.csproj", "{65045DD2-C6AC-4E30-A248-ADDCD2EAB512}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Function_1", "Function_1\Function_1.csproj", "{65045DD2-C6AC-4E30-A248-ADDCD2EAB512}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function_2", "Function_2\Function_2.csproj", "{DB637B14-A1C7-47BE-A68C-BB444AB4A181}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Function_2", "Function_2\Function_2.csproj", "{DB637B14-A1C7-47BE-A68C-BB444AB4A181}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function_01", "Function_01\Function_01.csproj", "{1E02B5F1-73D7-470E-A98A-19D75167EE59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Function_01", "Function_01\Function_01.csproj", "{1E02B5F1-73D7-470E-A98A-19D75167EE59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function_02", "Function_02\Function_02.csproj", "{24EE53C9-E431-4100-BA45-E749B3F8E948}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Function_02", "Function_02\Function_02.csproj", "{24EE53C9-E431-4100-BA45-E749B3F8E948}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function_03", "Function_03\Function_03.csproj", "{4510CF64-4DB4-4898-97E0-324530A36A45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Function_03", "Function_03\Function_03.csproj", "{4510CF64-4DB4-4898-97E0-324530A36A45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function_04", "Function_04\Function_04.csproj", "{BD57D1A3-8F57-4B9D-97D0-B890C0F20AAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Function_04", "Function_04\Function_04.csproj", "{BD57D1A3-8F57-4B9D-97D0-B890C0F20AAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function_05", "Function_05\Function_05.csproj", "{C48D801B-95D6-4A51-B09C-EB9742BA4918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Function_05", "Function_05\Function_05.csproj", "{C48D801B-95D6-4A51-B09C-EB9742BA4918}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function_06", "Function_06\Function_06.csproj", "{F19440CB-9359-47B0-9426-A6D371B4820F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Function_06", "Function_06\Function_06.csproj", "{F19440CB-9359-47B0-9426-A6D371B4820F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function_07", "Function_07\Function_07.csproj", "{BD8B921C-3640-4638-AE9B-E94B6C0D8E37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{F19440CB-9359-47B0-9426-A6D371B4820F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F19440CB-9359-47B0-9426-A6D371B4820F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F19440CB-9359-47B0-9426-A6D371B4820F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD8B921C-3640-4638-AE9B-E94B6C0D8E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8B921C-3640-4638-AE9B-E94B6C0D8E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8B921C-3640-4638-AE9B-E94B6C0D8E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD8B921C-3640-4638-AE9B-E94B6C0D8E37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
