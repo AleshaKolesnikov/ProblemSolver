@@ -26,7 +26,7 @@ namespace Function_1
 
             InputName();
             InputPhone();
-            frameWidth = MaxWidth();
+            frameWidth = GetMaxWidth();
 
             FrameStart();
         }
@@ -37,15 +37,13 @@ namespace Function_1
             _fullName = "Имя: ";
             _fullName = _fullName.Insert(5, Console.ReadLine());
         }
-
         public static void InputPhone()
         {
             Console.WriteLine("Enter your phone number:");
             _phoneNumber = "Телефонный номер: ";
             _phoneNumber = _phoneNumber.Insert(18,Console.ReadLine());
         }
-
-        public static int MaxWidth()
+        public static int GetMaxWidth()
         {
             int max = 0;
             int[] stringLength = { _fullName.Length, _phoneNumber.Length, _task.Length };
@@ -57,7 +55,6 @@ namespace Function_1
             }
             return max + 4;
         }
-
         public static void UpAndDownFrame()
         {
             char[] frame = new char[frameWidth];
@@ -68,18 +65,26 @@ namespace Function_1
 
             Console.WriteLine(frame);
         }
-        public static void sideframe(string str)
+        public static void SideFrame(string str)
         {
-            string newString = "*  *";
-            Console.WriteLine(newString.Insert(2, str));
-        }
+            char[] result = new char[frameWidth];
+            result[0] = frameSymbol;
+            result[result.Length - 1] = frameSymbol;
 
+            char[] incomming = str.ToCharArray();
+
+            for(int i = 2; i< incomming.Length + 2; i++)
+            {
+                result[i] = incomming[i - 2];
+            }
+            Console.WriteLine(result);
+        }
         public static void FrameStart()
         {
             UpAndDownFrame();
-            sideframe(_task);
-            sideframe(_fullName);
-            sideframe(_phoneNumber);
+            SideFrame(_task);
+            SideFrame(_phoneNumber);
+            SideFrame(_fullName);
             UpAndDownFrame();
         }
     }
