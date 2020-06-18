@@ -9,7 +9,7 @@ namespace Function_06
     {
         static void Main(string[] args)
         {
-            int[] result = OnlyEven(new int []{ 12, 14, 3, 10, 9, 5, 12 });
+            int[] result = OnlyEven(new int []{ 12, 14, 16, 10, 9, 5, 12 });
 
             foreach (var i in result)
             {
@@ -31,7 +31,6 @@ namespace Function_06
                 else
                     length--;
             }
-
             int[] ar = new int[length];
             for (int i = 0; i < ar.Length; i++)
             {
