@@ -31,7 +31,12 @@ namespace Function_06
                 else
                     length--;
             }
-            return onlyEvenArray;
+            int[] ar = new int[length];
+            for (int i = 0; i < ar.Length; i++)
+            {
+                ar[i] = onlyEvenArray[i];
+            }
+            return ar;
         }
         public static bool IsEven(int num)
         {
