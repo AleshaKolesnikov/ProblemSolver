@@ -12,7 +12,6 @@ namespace Function_09a
         {
             int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             Output(array);
-
         }
         static void Output(int[] array)
         {
@@ -23,7 +22,6 @@ namespace Function_09a
                 Output(array);
             }
             else return;
-            
         }
     }
 }
