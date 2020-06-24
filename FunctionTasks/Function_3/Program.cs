@@ -22,15 +22,15 @@ namespace Function_3
     {
         static void Main(string[] args)
         {
-            string valid = "Qwe-q_w.e12@mail.ru";               // [A-z0-9_.-]*\@[A-z]{1,11}\.[a-z]{2,11}
-            string notvalid1 = "абвге@mail.ru";                 // содержит русские буквы
-            string notvalid2 = "_qweqweq@mail.ru";              // первый символ "_" 
-            string notvalid3 = "qweqwe_@mail.ru";               // последний символ "_" перед @
-            string notvalid4 = "qwe_.qwe@mail.ru";              // два символа подряд
-            string notvalid5 = "qwe@qwe@mail.ru";               // два символа @
-            string notvalid6 = "a@mail.ru";                     // длина до @ менее 2 символов
-            string notvalid7 = "qweqwe_qwe@mail.r";             // домен меньше 2 символов
-            string notvalid8 = "qweqwe_qwe@mail.qweqweqweqwe";  // домен больше 11 символов
+            //string valid = "Qwe-q_w.e12@mail.ru";               // [A-z0-9_.-]*\@[A-z]{1,11}\.[a-z]{2,11}
+            //string notvalid1 = "абвге@mail.ru";                 // содержит русские буквы
+            //string notvalid2 = "_qweqweq@mail.ru";              // первый символ "_" 
+            //string notvalid3 = "qweqwe_@mail.ru";               // последний символ "_" перед @
+            //string notvalid4 = "qwe_.qwe@mail.ru";              // два символа подряд
+            //string notvalid5 = "qwe@qwe@mail.ru";               // два символа @
+            //string notvalid6 = "a@mail.ru";                     // длина до @ менее 2 символов
+            //string notvalid7 = "qweqwe_qwe@mail.r";             // домен меньше 2 символов
+            //string notvalid8 = "qweqwe_qwe@mail.qweqweqweqwe";  // домен больше 11 символов
 
 
 
